@@ -1,0 +1,97 @@
+
+body{
+    background-color: black;
+}
+header{
+    margin-left: 80px;
+}
+#imagen1{
+    width: 330px;
+    height: 130px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+main {
+    background: rgb(255,250,133);
+    background: radial-gradient(circle, rgba(255,250,133,1) 0%, rgba(255,130,130,1) 60%);
+    width: 800px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.input-texto{
+    width: 300px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 50px;
+    border: 2px solid #990000;
+    border-radius: 10px;
+}
+.sec2{
+    margin-top: 67px;
+}
+.mensaje{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url(img/pc\ encryp.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border: 2px solid #990000;
+    border-radius: 10px;
+}
+.copiar{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 205px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 2px 7px;
+}
+.copiar:hover{
+    background-color: lightgray;
+    color: #990000;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.encriptar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 2px 7px;
+}
+.encriptar:hover{
+    background-color: lightgray;
+    color: #990000;
+}
+.desencriptar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 2px 7px;
+}
+.desencriptar:hover{
+    background-color: lightgray;
+    color: #990000;
+}
+.informacion{
+    font-size: 15px;
+}
